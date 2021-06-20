@@ -1,0 +1,55 @@
+class Main {
+
+  public static void main (String [] args) {
+
+float [] [] notas = novo float [3] [5];
+
+    notas [0] [0] = 10.0f;
+
+    notas [0] [1] = 9,5f;
+
+    notas [0] [2] = 5.5f;
+
+    notas [0] [3] = 7,5f;   
+
+    notas [0] [4] = (notas [0] [0] + notas [0] [1] + notas [0] [2] + notas [0] [3]) / 4; 
+
+    notas [1] [0] = 5.5f;
+
+    notas [1] [1] = 8.5f;
+
+    notas [1] [2] = 10.0f;  
+
+    notas [1] [3] = 6,5f; 
+
+    notas [1] [4] = (notas [1] [0] + notas [1] [1] + notas [1] [2] + notas [1] [3]) / 4; 
+
+        
+
+    notas [2] [0] = 7,0f;
+
+    notas [2] [1] = 8.0f;
+
+    notas [2] [2] = 9.0f; 
+
+    notas [2] [3] = 10.0f;  
+
+    notas [2] [4] = (notas [2] [0] + notas [2] [1] + notas [2] [2] + notas [2] [3]) / 4; 
+
+    
+
+    for (int linha = 0; linha <notas.length; ++ linha) {
+
+    for (int col = 0; col <notas [linha] .length; ++ col) 
+
+    System.out.print (notas [linha] [col] + "\ t");
+
+    System.out.println (""); 
+
+    }
+
+    
+
+}
+
+}
